@@ -1,0 +1,16 @@
+.d-flex {
+  display: flex;
+}
+
+header {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  gap: 10px;
+}
+
+.nav-icons {
+  gap: 20px;
+}
