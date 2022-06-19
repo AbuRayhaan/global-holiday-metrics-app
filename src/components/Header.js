@@ -6,13 +6,13 @@ const Header = () => (
   <header className="d-flex">
     <div className="nav-menu d-flex">
       {/* <NavLink to="/" className=""> */}
-        <FaAngleLeft className="" />
+        <FaAngleLeft className="fa-icons" />
         <span>CITY LIST</span>
       {/* </NavLink> */}
     </div>
     <div className="nav-icons d-flex">
-      <FaMicrophone />
-      <FaCog />
+      <FaMicrophone className="fa-icons" />
+      <FaCog className="fa-icons" />
     </div>
   </header>
 );
