@@ -8,7 +8,7 @@ const Header = () => (
     <div className="nav-menu d-flex">
       <NavLink to="/" className="">
         <FaAngleLeft className="fa-icons" />
-        <span>CITY LIST</span>
+        <span>HOME</span>
       </NavLink>
     </div>
     <div className="nav-icons d-flex">
