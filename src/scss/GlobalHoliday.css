@@ -1,0 +1,24 @@
+.country-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.globe {
+  background-color: #dd4983;
+  width: 50%;
+}
+  
+.globe-icon {
+  color: #cf4278;
+  width: 100%;
+  display: block;
+}
+
+.project-title {
+  background-color: #cf4278;
+  width: 50%;
+}
+
+.project-title p {
+  font-weight: normal;
+}
