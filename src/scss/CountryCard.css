@@ -1,0 +1,32 @@
+.country-list {
+  display: grid;
+  align-items: center;
+  background-color: #f85092;
+  grid-template-columns: auto auto;
+  margin: 0;
+  padding-left: 0;
+}
+
+.country-list li {
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.country-list li:nth-child(4n-1),
+.country-list li:nth-child(4n-2) {
+  background: #cf4278;
+}
+
+.city-index {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.fa-icons-right {
+  color: white;
+  cursor: pointer;
+  margin-right: 25px;
+  margin-top: 10px;
+}

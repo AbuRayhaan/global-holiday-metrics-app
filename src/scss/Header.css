@@ -1,0 +1,32 @@
+.d-flex {
+  display: flex;
+}
+
+header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ec4c8b;
+  padding: 10px 0;
+}
+
+span {
+  color: white;
+}
+
+.nav-menu {
+  margin-left: 10px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-icons {
+  margin-right: 20px;
+  gap: 25px;
+}
+
+.fa-icons {
+  color: white;
+  cursor: pointer;
+}

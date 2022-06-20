@@ -1,0 +1,49 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #131011;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  width: 85%;
+  color: white;
+  font-size: 18px;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+button {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: #cf4278;
+  color: white;
+  background-color: #131011;
+  margin-right: 10px;
+}
+
+button:active {
+  color: black;
+  background-color: #cf4278;
+}
