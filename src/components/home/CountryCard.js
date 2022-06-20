@@ -5,9 +5,11 @@ import '../../scss/CountryCard.css';
 import { FaRegArrowAltCircleRight } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux/es/exports';
 import { FetchCountry } from '../../redux/country/country';
+import { FetchHoliday } from '../../redux/country/holiday';
 
-const HomeCity = ({ item }) => {
+const HomeCity = () => {
   const country = useSelector((state) => state.country);
+
   const dispatch = useDispatch();
   
   useEffect(() => {
@@ -22,7 +24,7 @@ const HomeCity = ({ item }) => {
         countryName: name,}
       ) => (
         <li className="city-index" key={id}>
-          <NavLink to="/country">
+          <NavLink to={`/${id}`}>
             <FaRegArrowAltCircleRight className="fa-icons-right" />
           </NavLink>
           <p className="fa-icons-right">{name}</p>
