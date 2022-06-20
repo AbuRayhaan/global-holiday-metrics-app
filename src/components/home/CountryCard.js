@@ -6,7 +6,7 @@ import { FaRegArrowAltCircleRight } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux/es/exports';
 import { FetchCountry } from '../../redux/country/country';
 
-const HomeCity = () => {
+const HomeCity = ({ item }) => {
   const country = useSelector((state) => state.country);
   const dispatch = useDispatch();
   
@@ -14,44 +14,23 @@ const HomeCity = () => {
     dispatch(FetchCountry());
       // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-  
-  // console.log(country);
 
   return (
     <ul className="country-list">
-      <li className="city-index">
-        <NavLink to="/country">
-          <FaRegArrowAltCircleRight className="fa-icons-right" />
-        </NavLink>
-        <p className="fa-icons-right">Nigeria</p>
-        <p className="fa-icons-right">NG</p>
-      </li>
-
-      <li className="city-index">
-        <NavLink to="/country">
-          <FaRegArrowAltCircleRight className="fa-icons-right" />
-        </NavLink>
-        <p className="fa-icons-right">Nigeria</p>
-        <p className="fa-icons-right">NG</p>
-      </li>
-
-      <li className="city-index">
-        <NavLink to="/country">
-          <FaRegArrowAltCircleRight className="fa-icons-right" />
-        </NavLink>
-        <p className="fa-icons-right">Nigeria</p>
-        <p className="fa-icons-right">NG</p>
-      </li>
-
-      <li className="city-index">
-        <NavLink to="/country">
-          <FaRegArrowAltCircleRight className="fa-icons-right" />
-        </NavLink>
-        <p className="fa-icons-right">Nigeria</p>
-        <p className="fa-icons-right">NG</p>
-      </li>
+      {country.map((
+        {countryCode: id,
+        countryName: name,}
+      ) => (
+        <li className="city-index" key={id}>
+          <NavLink to="/country">
+            <FaRegArrowAltCircleRight className="fa-icons-right" />
+          </NavLink>
+          <p className="fa-icons-right">{name}</p>
+          <p className="fa-icons-right">{id}</p>
+        </li>
+      )
+      )}
     </ul>
-    
   );
 };
 
