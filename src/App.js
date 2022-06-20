@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Header from "./components/Header";
-import Home from './components/home/Home';
-import City from './components/pollutant/cityDetails'
+import Home from './pages/home/Home';
+import Country from './pages/country/Country';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/:city" element={<City />} />
+          <Route path="/country" element={<Country />} />
         </Routes>
       </main>
     </>
