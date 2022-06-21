@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component test renders correctly 1`] = `
+<div
+  className="country-container"
+>
+  <section>
+    <div
+      className="form-container d-flex"
+    >
+      <form>
+        <input
+          onChange={[Function]}
+          placeholder="Country"
+          type="text"
+        />
+        <button
+          type="submit"
+        >
+          SEARCH
+        </button>
+      </form>
+    </div>
+    <ul
+      className="country-list"
+    />
+  </section>
+</div>
+`;
