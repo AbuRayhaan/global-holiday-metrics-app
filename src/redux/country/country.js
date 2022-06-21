@@ -1,6 +1,6 @@
 const initialState = [];
 
-const countryAPI = 'https://holidayapi.com/v1/countries?pretty&key=1b53bd42-1ccd-44a8-9d52-4ac475e29c0f';
+const countryAPI = 'https://holidayapi.com/v1/countries?pretty&key=a40c81de-d524-4e4c-9d4e-85df3a49632d';
 
 export const addCountry = (country) => ({
   type: 'ADD_COUNTRY',
@@ -16,32 +16,6 @@ export const FetchCountry = () => (async (dispatch) => {
       countryCode: e.code,
       countryName: e.name,
     };
-
-    // const code = country.countryCode;
-    // const holidayAPI = `https://holidayapi.com/v1/holidays?pretty&key=1b53bd42-1ccd-44a8-9d52-4ac475e29c0f&country=`&{code}`&year=2021`;
-
-    // const addHoliday = (holiday) => ({
-    //   type: 'ADD_HOLIDAY',
-    //   holiday,
-    // });
-    
-    // const FetchHoliday = () => (async (dispatch) => {
-    //   const response = await fetch(holidayAPI);
-    //   const info = await response.json();
-    //   const holidayArray = [];
-    //   info.holidays.forEach((e) => {
-    //     const holiday = {
-    //       holidayName: e.name,
-    //       holidayDate: e.date,
-    //     };
-    //     holidayArray.push(holiday);
-    //     console.log(holidayArray);
-    //   });
-    //     dispatch(addHoliday(holidayArray));
-    // });
-
-    // FetchHoliday();
-    // console.log(code);
     countryArray.push(country);
   });
     dispatch(addCountry(countryArray));
