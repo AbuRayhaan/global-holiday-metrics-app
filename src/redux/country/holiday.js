@@ -20,8 +20,8 @@ export const FetchHoliday = (code) => (async (dispatch) => {
     };
     holidayArray.push(holiday);
   });
-    const holidayLength= holidayArray.length;
-    console.log(holidayLength);
+    // const holidayLength= holidayArray.length;
+    // console.log(holidayLength);
     dispatch(addHoliday(holidayArray));
 });
 
