@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import GlobalHoliday from '../../components/holiday/CountryHoliday'
+// import GlobalHoliday from '../../components/holiday/CountryHoliday'
 import HolidayList from '../../components/holiday/HolidayList';
 import { useParams } from 'react-router-dom';
 import {FetchHoliday} from '../../redux/country/holiday';
@@ -16,7 +16,7 @@ const Country = () => {
 
   return (
     <section className="">
-      <GlobalHoliday />
+      {/* <GlobalHoliday /> */}
       <HolidayList />
     </section>
   )
