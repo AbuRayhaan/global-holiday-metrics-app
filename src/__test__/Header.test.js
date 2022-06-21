@@ -3,8 +3,8 @@ import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
 import Header from '../components/Header';
 
-describe('test for HeaderComponent', () => {
-  test('should render correctly', () => {
+describe('Test HeaderComponent', () => {
+  test('Expected to render correctly', () => {
     const headerComponent = renderer
       .create(
         <MemoryRouter>
