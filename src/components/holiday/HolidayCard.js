@@ -12,9 +12,9 @@ const Holidays = () => {
         {holidayName,
         holidayDate}
       ) => (
-        <li className="city-index" key={holidayName}>
-          <p className="fa-icons-right">{holidayName}</p>
-          <p className="fa-icons-right">{holidayDate}</p>
+        <li className="holiday-item" key={holidayName}>
+          <p className="holiday-name">{holidayName}</p>
+          <p className="holiday-date">{holidayDate}</p>
         </li>
       )
       )}
