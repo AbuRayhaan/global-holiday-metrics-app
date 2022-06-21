@@ -1,7 +1,7 @@
 import React from 'react';
 // import { AiOutlineGlobal } from "react-icons/ai";
 import '../../scss/HolidayCard.css';
-import { useSelector } from 'react-redux/es/hooks/useSelector';
+import { useSelector } from 'react-redux';
 import { AiOutlineGlobal } from "react-icons/ai";
 
 const Holidays = () => {
