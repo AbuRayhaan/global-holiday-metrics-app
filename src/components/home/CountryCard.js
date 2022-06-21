@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../../scss/CountryCard.css';
 import { FaRegArrowAltCircleRight } from 'react-icons/fa';
-import { useDispatch, useSelector } from 'react-redux/es/exports';
+import { useDispatch, useSelector } from 'react-redux';
 import { FetchCountry } from '../../redux/country/country';
 import Form from '../../components/home/Form';
 
