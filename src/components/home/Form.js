@@ -1,15 +1,16 @@
 import React from 'react';
-// import { FaExclamationTriangle, FaRegArrowAltCircleRight } from 'react-icons/fa';
 import '../../scss/Form.css'
-const Form = () => (
-  <div className="form-container d-flex">
-    {/* <p>SEARCH COUNTRY</p> */}
+
+const Form = ({ onChange }) => {
+
+  return (
+    <div className="form-container d-flex">
     <form>
-      <input type="text" placeholder="Country"></input>
-      {/* <input type="number" placeholder="Longitude"></input> */}
+      <input type="text" placeholder="Country" onChange={onChange}></input>
       <button type="submit">SEARCH</button> 
     </form>
   </div>
-)
+  );
+}
 
 export default Form;
