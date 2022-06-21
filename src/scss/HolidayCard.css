@@ -1,9 +1,16 @@
+.holiday-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
 .holiday-list {
   display: flex;
   flex-direction: column;
   background-color: #f85092;
   padding-left: 0;
   justify-content: flex-start;
+  margin-top: 0;
 }
 
 .holiday-list li {
@@ -12,4 +19,29 @@
 
 .holiday-list li:nth-child(2n) {
   background: #cf4278;
+}
+
+.country-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.globe {
+  background-color: #dd4983;
+  width: 50%;
+}
+  
+.globe-icon {
+  color: #cf4278;
+  width: 100%;
+  display: block;
+}
+
+.project-title {
+  background-color: #cf4278;
+  width: 50%;
+}
+
+.project-title p {
+  font-weight: normal;
 }
