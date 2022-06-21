@@ -1,6 +1,5 @@
 import React from 'react';
 import Holidays from './HolidayCard';
-import '../../scss/HolidayList.css'
 
 const HolidayList = () => {
 
