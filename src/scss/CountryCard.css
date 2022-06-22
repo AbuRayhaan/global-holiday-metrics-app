@@ -24,24 +24,15 @@
   align-items: flex-end;
 }
 
-.fa-icons-right {
-  color: white;
+.fa-icons-right,
+.country-code {
+  color: rgb(20, 45, 64);
   margin-right: 25px;
   margin-top: 10px;
 }
 
-/* @media screen and (min-width: 768px) {
-  .country-list {
-    display: grid;
-    align-items: center;
-    background-color: #f85092;
-    grid-template-columns: auto auto auto auto auto auto;
-    margin: 0;
-    padding-left: 0;
-  }
-
-  .country-list li:nth-child(4n-1),
-  .country-list li:nth-child(4n-2) {
-    background: #cf4278;
-  }
-} */
+.country-name {
+  color: rgb(255, 255, 255);
+  margin-right: 25px;
+  margin-top: 10px;
+}
