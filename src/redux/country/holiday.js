@@ -20,19 +20,19 @@ export const FetchHoliday = (code) => (async (dispatch) => {
     };
     holidayArray.push(holiday);
   });
-    // const holidayLength= holidayArray.length;
-    // console.log(holidayLength);
-    dispatch(addHoliday(holidayArray));
+  // const holidayLength= holidayArray.length;
+  // console.log(holidayLength);
+  dispatch(addHoliday(holidayArray));
 });
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'ADD_HOLIDAY':
       return action.holiday;
-  
+
     default:
       return state;
   }
 };
-  
+
 export default reducer;

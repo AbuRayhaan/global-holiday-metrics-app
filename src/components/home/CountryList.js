@@ -1,13 +1,11 @@
 import React from 'react';
-import CountryCard from './CountryCard';
-import '../../scss/CountryList.css'
+import CountryTiles from './CountryCard';
+import '../../scss/CountryList.css';
 
-const CountryList = () => {
-  return (
-    <div className="country-container">
-      <CountryCard />
-    </div>
-  );
-};
+const CountryList = () => (
+  <div className="country-container">
+    <CountryTiles />
+  </div>
+);
 
 export default CountryList;

@@ -1,20 +1,18 @@
-.holiday-container {
+.d-flex {
   display: flex;
+}
+
+.holiday-container {
   flex-direction: column;
   margin: 0;
 }
 
 .holiday-list {
-  display: flex;
   flex-direction: column;
   background-color: #f85092;
   padding-left: 0;
   justify-content: flex-start;
   margin-top: 0;
-}
-
-.holiday-list li {
-  padding: 5px;
 }
 
 .holiday-list li:nth-child(2n) {
@@ -30,18 +28,29 @@
   background-color: #dd4983;
   width: 50%;
 }
-  
+
 .globe-icon {
   color: #cf4278;
   width: 100%;
   display: block;
 }
 
-.project-title {
+.holiday-title {
   background-color: #cf4278;
   width: 50%;
 }
 
-.project-title p {
-  font-weight: normal;
+.holiday-title p {
+  font-weight: bold;
+  color: rgb(20, 45, 64);
+}
+
+.holiday-name {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(20, 45, 64);
+}
+
+.holiday-date {
+  color: rgb(231, 231, 208);
 }

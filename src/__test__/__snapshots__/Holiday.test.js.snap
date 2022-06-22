@@ -2,7 +2,7 @@
 
 exports[`Holiday component test renders correctly 1`] = `
 <section
-  className="holiday-container"
+  className="holiday-container d-flex"
 >
   <div
     className="country-details"
@@ -31,12 +31,12 @@ exports[`Holiday component test renders correctly 1`] = `
       </svg>
     </div>
     <div
-      className="project-title"
+      className="holiday-title"
     >
       <p
         className=""
       >
-        Total:
+        Total Holidays:
       </p>
       <p>
         0
@@ -44,7 +44,7 @@ exports[`Holiday component test renders correctly 1`] = `
     </div>
   </div>
   <ul
-    className="holiday-list"
+    className="holiday-list d-flex"
   />
 </section>
 `;

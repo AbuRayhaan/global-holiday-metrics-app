@@ -1,4 +1,4 @@
-.country-details {
+.global-details {
   display: flex;
   justify-content: space-between;
 }
@@ -7,7 +7,7 @@
   background-color: #dd4983;
   width: 50%;
 }
-  
+
 .globe-icon {
   color: #cf4278;
   width: 100%;
@@ -20,5 +20,7 @@
 }
 
 .project-title p {
-  font-weight: normal;
+  color: rgb(20, 45, 64);
+  font-weight: bold;
+  margin-top: 30px;
 }
