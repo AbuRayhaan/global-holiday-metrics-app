@@ -1,8 +1,10 @@
-# pollution-metrics-app
+# global-holiday-metrics-app
 
-A Metric App that provides current, forecast and historical air pollution data for any coordinates on the globe.
+A Global Holiday Metric App that provides holiday data for 251 countries on the globe.
 
-![screenshot](assets/screenshot.png)
+<p align="center">
+  <img src="/src/assets/screenshot.png">
+</p>
 
 This is my Leaderboard project in the Microverse curriculum.
 
