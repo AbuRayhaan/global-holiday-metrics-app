@@ -18,17 +18,17 @@ export const FetchCountry = () => (async (dispatch) => {
     };
     countryArray.push(country);
   });
-    dispatch(addCountry(countryArray));
+  dispatch(addCountry(countryArray));
 });
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'ADD_COUNTRY':
       return action.country;
-  
+
     default:
       return state;
   }
 };
-  
+
 export default reducer;
