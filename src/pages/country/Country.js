@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 // import GlobalHoliday from '../../components/holiday/CountryHoliday'
-import HolidayList from '../../components/holiday/HolidayList';
 import { useParams } from 'react-router-dom';
-import {FetchHoliday} from '../../redux/country/holiday';
 import { useDispatch } from 'react-redux';
+import HolidayList from '../../components/holiday/HolidayList';
+import { FetchHoliday } from '../../redux/country/holiday';
 
 const Country = () => {
   const params = useParams();
@@ -11,7 +11,6 @@ const Country = () => {
 
   useEffect(() => {
     dispatch(FetchHoliday(params.country_code));
-      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -19,7 +18,7 @@ const Country = () => {
       {/* <GlobalHoliday /> */}
       <HolidayList />
     </section>
-  )
-}
+  );
+};
 
 export default Country;
