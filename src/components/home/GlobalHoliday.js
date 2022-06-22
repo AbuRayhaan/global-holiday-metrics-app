@@ -9,7 +9,7 @@ const GlobalHoliday = () => (
     </div>
 
     <div className="project-title">
-      <p>Global Holidays</p>
+      <p>Global holidays in 251 countries.</p>
     </div>
   </div>
 );
