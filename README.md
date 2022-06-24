@@ -22,7 +22,7 @@ This is my React Capstone project in the Microverse curriculum.
 
 [Presentation Link](https://www.loom.com/share/57059d9a34934dc5b7589c9fb734f56b)
 
-## Website Mock Up
+## Website MockUp
 ![screenshot](images/device.png)
 
 ## Getting Started
