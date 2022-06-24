@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaAngleLeft, FaMicrophone, FaCog } from 'react-icons/fa';
-import '../scss/Header.css';
+import '../scss/Header.scss';
 
 const Header = () => (
   <header className="d-flex">
@@ -9,7 +9,7 @@ const Header = () => (
       <NavLink to="/" className="">
         <FaAngleLeft className="fa-icons" />
       </NavLink>
-      <span>HOME</span>
+      <span className="home">HOME</span>
     </div>
     <div className="nav-icons d-flex">
       <FaMicrophone className="fa-icons" />
