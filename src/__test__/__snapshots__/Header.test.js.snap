@@ -33,7 +33,9 @@ exports[`Test HeaderComponent Expected to render correctly 1`] = `
         />
       </svg>
     </a>
-    <span>
+    <span
+      className="home"
+    >
       HOME
     </span>
   </div>
