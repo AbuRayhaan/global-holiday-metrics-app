@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineGlobal } from 'react-icons/ai';
-import '../../scss/GlobalHoliday.css';
+import '../../scss/GlobalHoliday.scss';
 
 const GlobalHoliday = () => (
   <div className="global-details">

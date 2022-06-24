@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../../scss/Form.css';
+import '../../scss/Form.scss';
 
 const Form = ({ onChange }) => (
   <div className="form-container d-flex">

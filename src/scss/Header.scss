@@ -9,7 +9,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: #ec4c8b;
+  background-color: #345289;
   padding: 10px 0;
 }
 
@@ -29,6 +29,10 @@ span {
 }
 
 .fa-icons {
-  color: white;
+  color: rgb(0, 0, 0);
   cursor: pointer;
+}
+
+.home {
+  color: rgb(0, 0, 0);
 }

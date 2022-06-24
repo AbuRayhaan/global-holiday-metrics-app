@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import '../../scss/CountryCard.css';
+import '../../scss/CountryCard.scss';
 import { FaRegArrowAltCircleRight } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux';
 import { FetchCountry } from '../../redux/country/country';
@@ -39,8 +39,9 @@ const CountryTiles = () => {
             <NavLink to={`/${id}`}>
               <FaRegArrowAltCircleRight className="fa-icons-right" />
             </NavLink>
+            <img src={`https://countryflagsapi.com/png/${id}`} alt="country-flag" className="country-flag" />
             <p className="country-name">{name}</p>
-            <p className="country-code">{id}</p>
+            {/* <p className="country-code">{id}</p> */}
             {/* <p className="fa-icons-right">{countHoliday(id)}</p> */}
           </li>
         ))}

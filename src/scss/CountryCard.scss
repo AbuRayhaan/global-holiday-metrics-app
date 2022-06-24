@@ -1,7 +1,7 @@
 .country-list {
   display: grid;
   align-items: center;
-  background-color: #f85092;
+  background-color: #5788e4;
   grid-template-columns: auto auto;
   margin: 0;
   padding-left: 0;
@@ -15,7 +15,7 @@
 
 .country-list li:nth-child(4n-1),
 .country-list li:nth-child(4n-2) {
-  background: #cf4278;
+  background: #4369b2;
 }
 
 .city-index {
@@ -32,7 +32,13 @@
 }
 
 .country-name {
-  color: rgb(255, 255, 255);
+  color: rgb(20, 45, 64);
   margin-right: 25px;
   margin-top: 10px;
+}
+
+.country-flag {
+  margin-right: 25px;
+  margin-top: 10px;
+  width: 50%;
 }
