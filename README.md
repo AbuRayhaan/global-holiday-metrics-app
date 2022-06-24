@@ -2,9 +2,7 @@
 
 A Global Holiday Metric App that provides holiday data for 251 countries on the globe.
 
-<p align="center">
-  <img src="/src/assets/screenshot.png">
-</p>
+![screenshot](images/screenshot.png)
 
 This is my React Capstone project in the Microverse curriculum.
 
@@ -23,6 +21,9 @@ This is my React Capstone project in the Microverse curriculum.
 ## Presentation Video
 
 [Presentation Link](https://www.loom.com/share/57059d9a34934dc5b7589c9fb734f56b)
+
+## Website Mock Up
+![screenshot](images/device.png)
 
 ## Getting Started
 
